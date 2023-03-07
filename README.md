@@ -14,3 +14,9 @@ los marcos de las funciones (Comentadas en el archivo .S) y utilizando la metodo
 pidieran al usuario esos 10 valores del arreglo y se fueran almacenando con una estructura 'for'; el programa llama a la 
 funcion 'media' la cual usa la direccion base de los valores del arreglo y lleva a cabo su procedimiento. Por ultimo, se 
 almacena el valor de retorno de la funcion 'media' y se imprime usando etiquetas en memoria de tipo ascii.
+
+
+Nosotros para compilar esta funcion en terminal linux lo compilamos y ejecutamos con los siguientes comandos:
+arm-as practica2micro.s -o practica2micro.o
+arm-gcc practica2micro.o -o practica2micro.elf -static
+arm-run practica2micro.elf
