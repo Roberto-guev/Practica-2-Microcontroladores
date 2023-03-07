@@ -20,3 +20,16 @@ Nosotros para compilar esta funcion en terminal linux lo compilamos y ejecutamos
 arm-as practica2micro.s -o practica2micro.o
 arm-gcc practica2micro.o -o practica2micro.elf -static
 arm-run practica2micro.elf
+
+![](https://i.imgur.com/lIGfHgD.png)
+
+![](https://i.imgur.com/k8azwJz.png)
+
+![](https://i.imgur.com/Fmq8BIL.png)
+
+![](https://i.imgur.com/E11gD1I.png)
+
+Como se muesta en estas tablas de referencia se debe asignar un valor especifico a lo que queramos hacer al regsiistro r7 para configurar los perifericos del sistema; en este caso para llevar a cabo la practica solo se usaron los valores de 3 y 4 en r7 para leer los valores del usuario y imprimir en consola respectivamente. 
+
+
+
